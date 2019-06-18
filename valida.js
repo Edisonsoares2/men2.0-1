@@ -1,7 +1,7 @@
 
 function validacao() {
 	var formulario = document.form;
-	var nome = formulario.nome;
+	var name = formulario.nome;
 	var email = formulario.email;
 	var telefone = formulario.telefone;
 	var cidade = formulario.cidade;
@@ -9,7 +9,7 @@ function validacao() {
 	var assunto = formulario.assunto
 	var msg = formulario.mensagem;
 			
-	if (nome.value == "") {
+	if (name.value == "") {
 	alert("Informe seu nome !");		
 		return false;
 	}
